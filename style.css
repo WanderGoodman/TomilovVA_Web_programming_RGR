@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('images/MurmanskBG_2.jpg'); 
+    background-repeat: no-repeat; 
+     background-size: cover;        
+     background-position: center;   
+     background-attachment: fixed; 
+}
+header {
+    justify-content: center;
+    background: linear-gradient(#515E8A, #FCD9BD);
+    display: flex;
+    align-items: center; 
+    gap: 15px;           
+    padding: 10px 20px;
+    color:aliceblue;
+    margin-right: 22%;
+    margin-left: 22%;
+}
+header img {
+    height: 100px;  
+    width: auto;        
+    object-fit: contain;
+}
+
+
+header span {
+    text-align: center;
+    font-size: 76px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #eee2e2;
+}
+
+main {
+    margin-left: 22%;
+    margin-right: 22%;
+    background: linear-gradient(#FCD9BD, #342647);
+    font-size: 23px;
+}
+
+.p-centre {
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin-left: 22%;
+    margin-right: 22%;
+    background: linear-gradient(#342647, #0D2843 );
+    font-size: 24px;    
+}
+
+.area_light{
+    color: #ffffff;
+}
+
+input{
+    height: 20px;
+    width: 300px;
+    max-width: 300px; 
+    min-height: 20px;
+}
+textarea {
+    resize: none;
+    width: 300px;
+    height: 165px;
+    max-width: 100%; 
+    min-height: 100px;
+}
+
+.form-box{
+    background:#ffffff;
+    margin-left: 33%;
+    padding: 25px 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 320px;
+}
+h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #333;
+}
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.input-group input, .input-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
