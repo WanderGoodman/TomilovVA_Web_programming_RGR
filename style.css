@@ -4,25 +4,26 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url('images/MurmanskBG_2.jpg'); 
+    background-color: #000000; 
     background-repeat: no-repeat; 
      background-size: cover;        
      background-position: center;   
-     background-attachment: fixed; 
+     background-attachment: fixed;
+     color:rgb(255, 255, 255);
 }
 header {
     justify-content: center;
-    background: linear-gradient(#515E8A, #FCD9BD);
+    background: color #ffffff;
     display: flex;
     align-items: center; 
     gap: 15px;           
     padding: 10px 20px;
-    color:aliceblue;
+    color:rgb(255, 255, 255);
     margin-right: 22%;
     margin-left: 22%;
 }
 header img {
-    height: 100px;  
+    height: 200px;  
     width: auto;        
     object-fit: contain;
 }
@@ -33,13 +34,13 @@ header span {
     font-size: 76px;
     font-weight: bold;
     font-family: sans-serif;
-    color: #eee2e2;
+    color: #ffffff;
 }
 
 main {
     margin-left: 22%;
     margin-right: 22%;
-    background: linear-gradient(#FCD9BD, #342647);
+    background: color: #ffffff;
     font-size: 23px;
 }
 
