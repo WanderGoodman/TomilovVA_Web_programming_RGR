@@ -44,6 +44,6 @@ const form = document.getElementById('feedbackForm');
                 return; 
             }
 
-            alert('Выполнено! Ваше сообщение отправлено.');
+            alert('Данные формы успешно проверены! Отправка на сервер пока не настроена');
             form.reset();
         });
